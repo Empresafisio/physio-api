@@ -7,7 +7,7 @@ const SUPABASE_KEY =
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const testUserCreation = async () => {
-  console.log('🚀 Iniciando teste de criação de usuário...');
+  console.log('🚀 A iniciar teste de criação de usuário...');
 
   const { data, error } = await supabase.auth.signUp({
     email: 'goncalocaroca@gmail.com',
